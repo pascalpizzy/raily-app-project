@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Raily - Meets on the Move</title>
     <meta content="Raily® - Meets on the move. The ultimate AI-driven social travel hub. Unleash the traveler in you with an AI-guided concierge designed to provide personalized bookings, while augmented reality and gamification turn your journey into a magical one. It&#x27;s not just an app - it&#x27;s a companion! Raily®. Connect, Travel, Friends." name="description" />
-    <meta content="Raily - Meets on the Move" property="og:title" />
+    <!-- <meta content="Raily - Meets on the Move" property="og:title" />
     <meta content="Raily® - Meets on the move. The ultimate AI-driven social travel hub. Unleash the traveler in you with an AI-guided concierge designed to provide personalized bookings, while augmented reality and gamification turn your journey into a magical one. It&#x27;s not just an app - it&#x27;s a companion! Raily®. Connect, Travel, Friends." property="og:description" />
     <meta content="https://azure.raily.app/files/og.jpg" property="og:image" />
     <meta content="Raily - Meets on the Move" property="twitter:title" />
@@ -13,8 +13,8 @@
     <meta content="https://azure.raily.app/files/og.jpg" property="twitter:image" />
     <meta property="og:type" content="website" />
     <meta content="summary_large_image" name="twitter:card" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="https://cdn.prod.website-files.com/64aceaf9cb10fc1c8e4efdbc/css/railybeta.webflow.5fc711443.min.css" rel="stylesheet" type="text/css" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" /> -->
+    <link href="{{asset('frontEndAsset/assets/css/customcss2.css')}}" rel="stylesheet" type="text/css" />
     <style>
         @media (min-width:992px) {
             html.w-mod-js:not(.w-mod-ix) [data-w-id="061330ac-a08d-4b26-72b6-7b07478b831f"] {
@@ -786,13 +786,13 @@
         gtag('set', 'developer_id.dZGVlNj', true);
         gtag('config', 'G-K0DRW11MFK');
     </script><!-- Стили чата -->
-    <link rel="preload" href="https://embed.mottle.com/embed.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="https://azure.raily.app/files/video-js.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{asset('frontEndAsset/assets/css/customcss3.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="{{asset('frontEndAsset/assets/css/customcss4.css')}}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <script src="{{asset('frontEndAsset/assets/js/customjs.js')}}"></script>
 
     <link rel="stylesheet" href="{{asset('frontEndAsset/assets/css/customjs.css')}}" />
 
     <!-- свайпер -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="{{asset('frontEndAsset/assets/css/customcss5.css')}}" />
 </head>
