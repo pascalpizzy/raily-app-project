@@ -1,4 +1,4 @@
-## **How to set up and run the project locally.**</br>
+## **How To Set Up And Run The Project Locally.**</br>
 **Requirement:**</br>
 PHP: Laravel requires PHP 7.3 or higher.</br>
 Composer: Dependency manager for PHP.</br>
@@ -14,10 +14,10 @@ rename the .env.example to .env</br>
 php artisan serve</br>
 
 
-## **Any assumptions or decisions made during the development.**</br>
+## **Any Assumptions or Decisions Made During the Development.**</br>
 I decided to run all my route through the controller function.</br>
 
 
 
-## **Any challenges faced and how they were overcome.**</br>
-One of the challenges I encountered was deploying a Laravel project to Netlify. Netlify does not support server-side scripts, so I had to make my project static by creating a new folder. This allowed me to successfully upload the project to Netlify.
+## **Any Challenges Faced and how They Were Overcome.**</br>
+One of the challenges I encountered was deploying my Laravel project to Netlify. Netlify does not support server-side scripts, so I had to make my project static by creating a new folder. This allowed me to successfully upload the project to Netlify.
