@@ -1,5 +1,4 @@
 @extends('layouts.frontEnd.main')
-
 @section('contents')
 
 <body class="body">
@@ -356,9 +355,9 @@
                                 <source src='https://azure.raily.app/videos/Smartwatches_1440_web.mp4' type='video/mp4'>
                             </video></div>
                         <div class="embet-video-ticket xr-video-player is-mobile w-embed"><video data-player-id="WatchPlayerMobile" data-vjs-player data-is-mobile preload="none" class="video-js vjs-raily" poster="https://cdn.prod.website-files.com/64aceaf9cb10fc1c8e4efdbc/663a09842b4490491efd0302_3%D1%81%D1%81.png">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
     </div>
 
     </div>
